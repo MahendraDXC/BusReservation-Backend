@@ -10,7 +10,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "TBLADMIN")
+@Table(name = "TBLADMIN")//sachin
 public class Admin {
 	@Id
 	@GeneratedValue
