@@ -16,6 +16,8 @@ public class TravelSchedule {
 	@Id
 	@GeneratedValue
 	private int schedule_Id;
+	
+	
 	private LocalDateTime schedule_Date;
 	private Time departure_Time;
 	private Time arrival_Time;
