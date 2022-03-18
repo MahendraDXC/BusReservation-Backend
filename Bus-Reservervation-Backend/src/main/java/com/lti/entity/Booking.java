@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
+//Trial Push
 @Entity
 @Table(name = "TBLBOOKING")
 public class Booking {
