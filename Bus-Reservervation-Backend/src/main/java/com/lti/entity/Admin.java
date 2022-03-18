@@ -10,7 +10,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "TBLADMIN")//sachin
+@Table(name = "TBLADMIN")//demo push
 public class Admin {
 	@Id
 	@GeneratedValue
