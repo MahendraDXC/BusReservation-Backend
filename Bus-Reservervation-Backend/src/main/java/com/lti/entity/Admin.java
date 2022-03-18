@@ -18,7 +18,7 @@ public class Admin {
 	private String adm_name;
 	private String adm_contact;
 	private String adm_email;
-	private String username;
+	private String username;//My password
 	private String password;
 
 	@OneToMany(mappedBy = "admin")
