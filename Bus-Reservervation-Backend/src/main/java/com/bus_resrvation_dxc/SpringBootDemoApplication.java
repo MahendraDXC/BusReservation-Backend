@@ -1,4 +1,4 @@
-package com.lti;
+package com.bus_resrvation_dxc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
