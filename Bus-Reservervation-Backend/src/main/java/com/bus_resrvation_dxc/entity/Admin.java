@@ -2,6 +2,7 @@ package com.bus_resrvation_dxc.entity;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -29,7 +30,7 @@ public class Admin {
 	private String username;//My password
 	private String password;
 
-	@OneToMany(mappedBy = "admin")
+	@OneToMany(mappedBy = "admin",cascade = CascadeType.ALL)
 	private List<Bus> buses;
 
 	

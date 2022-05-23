@@ -29,9 +29,11 @@ public class Bus {
 	private int bus_Number;
 	private String bus_type;
 	private String source;
+	private String pick_up;
 	private String destination;
+	private String dropping_point;
 	private int total_seats;
-	
+
 	@ManyToOne
 	@JoinColumn(name="adm_id")
 	private Admin admin;

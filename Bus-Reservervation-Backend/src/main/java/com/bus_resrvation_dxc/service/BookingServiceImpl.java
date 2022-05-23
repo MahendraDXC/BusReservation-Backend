@@ -31,8 +31,8 @@ public class BookingServiceImpl implements BookingService {
 		return bookingRepository.save(booking);
 		
 		 else {
-//			 throw new NullPointerException();
-			 return null; 
+			 throw new NullPointerException("no data");
+//			 return null; 
 		 }
 			
 	}
